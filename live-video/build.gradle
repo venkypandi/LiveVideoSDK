@@ -53,7 +53,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.venkypandi'
-                artifactId = 'live-video'
+                artifactId = 'LiveVideoSDK'
                 version = '1.0.3'
             }
         }
