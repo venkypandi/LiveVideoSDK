@@ -107,15 +107,13 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
 //            )
 //        )
 //        callTwilioKeyObserver()
+        createAudioAndVideoTracks()
 
         connectToRoom(roomName)
+
         if (!checkPermissionForCameraAndMicrophone()) {
             requestPermissionForCameraMicrophoneAndBluetooth()
-        } else {
-            audioSwitch.start { _, _ ->
-            }
         }
-        createAudioAndVideoTracks()
 
         binding.ivVideo.setOnClickListener {
             if (!hasLocalParticipant) {
@@ -536,16 +534,16 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
         return flag
     }
 
-    private val audioSwitch by lazy {
-        AudioSwitch(
-            requireContext(), preferredDeviceList = listOf(
-                AudioDevice.BluetoothHeadset::class.java,
-                AudioDevice.WiredHeadset::class.java,
-                AudioDevice.Speakerphone::class.java,
-                AudioDevice.Earpiece::class.java
-            )
-        )
-    }
+//    private val audioSwitch by lazy {
+//        AudioSwitch(
+//            requireContext(), preferredDeviceList = listOf(
+//                AudioDevice.BluetoothHeadset::class.java,
+//                AudioDevice.WiredHeadset::class.java,
+//                AudioDevice.Speakerphone::class.java,
+//                AudioDevice.Earpiece::class.java
+//            )
+//        )
+//    }
 
     private val cameraCapturerCompat by lazy {
         CameraCapturerCompat(requireContext(), CameraCapturerCompat.Source.FRONT_CAMERA)
@@ -605,7 +603,7 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
 
         override fun onConnectFailure(room: Room, e: TwilioException) {
             Toast.makeText(requireActivity(), "Connection Failed", Toast.LENGTH_SHORT).show()
-            audioSwitch.deactivate()
+//            audioSwitch.deactivate()
             requireActivity().onBackPressed()
         }
 
@@ -614,7 +612,7 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
             this@LiveVideoFragment.room = null
             // Only reinitialize the UI if disconnect was not called from onDestroy()
             if (!disconnectedFromOnDestroy) {
-                audioSwitch.deactivate()
+//                audioSwitch.deactivate()
                 requireActivity().onBackPressed()
 
             }
@@ -967,7 +965,7 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
     }
 
     private fun connectToRoom(roomName: String) {
-        audioSwitch.activate()
+//        audioSwitch.activate()
 
         val configuration = NetworkQualityConfiguration(
             NetworkQualityVerbosity.NETWORK_QUALITY_VERBOSITY_MINIMAL,
@@ -1306,9 +1304,7 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
              * permissions, AudioSwitch should be started after providing the user the option
              * to grant the necessary permissions for bluetooth.
              */
-            audioSwitch.start { _, _ ->
 
-            }
 
             if (cameraAndMicPermissionGranted) {
                 createAudioAndVideoTracks()
@@ -1335,7 +1331,7 @@ class LiveVideoFragment(private var accessToken:String, var roomName: String) : 
     }
 
     override fun onDestroy() {
-        audioSwitch.stop()
+//        audioSwitch.stop()
         requireActivity().volumeControlStream = savedVolumeControlStream
         room?.disconnect()
         disconnectedFromOnDestroy = true
