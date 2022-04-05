@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_thumbnail"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_10"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="@dimen/padding_1"
+    app:strokeColor="@color/separation_line"
+    app:strokeWidth="@dimen/padding_1">
+
+    <com.twilio.video.VideoView
+        android:id="@+id/thumbnailVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottomSheetBg"
+        android:backgroundTint="@color/bottomSheetBg" />
+
+    <ImageView
+        android:id="@+id/iv_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_desc"
+        android:src="@drawable/ic_videooffwhite"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="10dp"
+        android:alpha="0.66"
+        android:background="@drawable/textview_bg"
+        android:drawableStart="@drawable/ic_audiooffwhite"
+        android:drawablePadding="@dimen/margin_08"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="@string/dash"
+        android:textColor="#fff"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+</com.google.android.material.card.MaterialCardView>

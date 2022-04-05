@@ -1,0 +1,141 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TwilioApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="text_primary_dark_regular_16" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edit_text_16</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    Chat
+    <style name="chat_edit_text" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/edit_text_16</item>
+        <item name="android:textColor">@color/black_white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+        <item name="android:padding">@dimen/padding_5</item>
+        <item name="android:background">@drawable/drawable_chat_edit_text_bg</item>
+    </style>
+
+    <style name="text_regular_white_20" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    Chat
+    <style name="text_primary_dark_regular_16_chat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edit_text_16</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    Chat
+    <style name="text_grey_regular_12_chat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textColor">@color/desc_grey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    Chat
+    <style name="text_primary_dark_bold_16_chat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edit_text_16</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_bold</item>
+    </style>
+
+    Chat
+    <style name="text_dark_blue_bold_14_chat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_text_14</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_bold</item>
+    </style>
+
+    Chat
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">@dimen/margin_10</item>
+        <item name="cornerSizeTopLeft">@dimen/margin_10</item>
+        <item name="cornerSizeBottomLeft">@dimen/margin_10</item>
+        <item name="cornerSizeBottomRight">@dimen/_0_dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    Chat
+    <style name="ImageView.Corner_receiver" parent="">
+        <item name="cornerSizeTopRight">@dimen/_0_dp</item>
+        <item name="cornerSizeTopLeft">@dimen/_0_dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/margin_10</item>
+        <item name="cornerSizeBottomRight">@dimen/margin_10</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="text_regular_white_12" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    <style name="text_regular_white_16" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    <style name="text_primary_dark_bold_16" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/edit_text_16</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_bold</item>
+    </style>
+
+    Clock-IN, Filter View
+    <style name="text_dark_blue_bold_14" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_text_14</item>
+        <item name="android:textColor">@color/in_progress_blue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_bold</item>
+    </style>
+
+    Clock-IN, Expenses, View Expense, Expense Bottom Sheet, Incident Report Bottom Sheet
+    <style name="text_regular_grey_14" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_text_14</item>
+        <item name="android:textColor">@color/desc_grey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    <style name="text_regular_white_14" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_text_14</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+    </style>
+
+    <style name = "list_dialog_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowAnimationStyle"> @android:style/Animation.Dialog</item>
+    </style >
+
+</resources>

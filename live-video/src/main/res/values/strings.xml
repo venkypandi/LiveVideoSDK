@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Twilio App</string>
+    <string name="base_url">https://mdjchat-4954.twil.io</string>
+    <string name="home_screen_header">Twilio App</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <string name="live_stream">Live Stream</string>
+
+
+    <!--LiveStreaming-->
+    <string name="live_streaming_title">Live Streaming</string>
+    <string name="total_live_streams">0 • Agents Live Streaming</string>
+    <string name="no_live_streams">No live stream</string>
+    <string name="loading">Fetching content…</string>
+
+    <string name="is_typing">&#160;is typing…</string>
+    <string name="delete_attachment">Are you sure you want to delete the attachment?</string>
+    <string name="attachments">Attachments</string>
+    <string name="type_your_message">Type Your Message</string>
+    <string name="delete_caps">Delete</string>
+    <string name="recording">Recording…</string>
+    <string name="user_not_participant_of_conversation">User not participant of conversation</string>
+    <string name="send">send</string>
+    <string name="cancel">Cancel</string>
+    <string name="dash">-</string>
+
+    <string name="video">Video</string>
+    <string name="add_recorded_video">Add Recorded Video</string>
+    <string name="audio">Audio</string>
+    <string name="add_recorded_audio">Add Recorded Audio</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="capture_video">Capture Video</string>
+    <string name="take_video">Take Video</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="are_you_sure_you_want_to_delete_the_incident_report_details">Are you sure you want to delete the attachment?</string>
+    <string name="download">Download</string>
+
+    <string name="error">Error</string>
+    <string name="content_desc">content_desc</string>
+    <string name="image">Image</string>
+    <string name="add_photos">Add Photo</string>
+    <string name="document">Document</string>
+    <string name="add_pdf_doc_etc">Add pdf, doc, etc…</string>
+    <string name="capture">Capture</string>
+    <string name="take_photos">Take Photos</string>
+    <string name="identity">Identity</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#033863</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#05206A</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorSecondaryFont">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#7F7F7F</color>
+    <color name="lightGray">#BDBDBD</color>
+    <color name="red">#E72A25</color>
+    <color name="silver">#D9D9D9</color>
+    <color name="colorPrimaryLightDarkOneTrans">#E6232323</color>
+    <color name="colorPrimaryLightDarkTwo">#333333</color>
+    <color name="colorDropDownList">#FFFFFF</color>
+    <color name="green">#6AC259</color>
+    <color name="lightyellow">#EDEBE8</color>
+    <color name="dropDownBorder">#B3B3B3</color>
+    <color name="userTypeSelectedFont">#05206A</color>
+    <color name="userTypeNotSelectedFont">#FFFFFF</color>
+    <color name="userNotSelectedBg">#3A3A3A</color>
+    <color name="userSelectedBg">#ADCBFA</color>
+    <color name="hintTextColor">#8CFFFFFF</color>
+
+    <color name="scheduleTextColor">#05206A</color>
+
+    <color name="white_blue">#FFFFFF</color>
+    <color name="progress_darkblue_blue">#05206A</color>
+    #SOS
+    <color name="white">#FFFFFF</color>
+    <color name="bg">#BDBDBD</color>
+    <color name="reason_txt">#FFFFFF</color>
+    <color name="reason_btn">#008EB6</color>
+    <color name="reason_btnbg">#232323</color>
+    <color name="reason_border">#7F7F7F</color>
+    <color name="sos_btn">#E72A25</color>
+    <color name="deactivate_sos">#330908</color>
+    <color name="sos_outer">#8B1916</color>
+    <color name="view_bg">#D9D9D9</color>
+    <color name="reason_desc_tint_col0r">#CACACA</color>
+
+    #Alert
+    <color name="alert_blue">#2052B9</color>
+    <color name="alert_yellow">#EDAC0E</color>
+    <color name="alert_orange">#EA5E00</color>
+    <color name="alert_red">#E72A25</color>
+    <color name="alert_green">#6AC259</color>
+
+    #BottomSheet
+    <color name="bottomSheetBg">#232323</color>
+    <color name="bottomSheetLine">#656565</color>
+
+    <color name="disable_grey">#F0F0F0</color>
+    <color name="usr_status_card_green">#6AC259</color>
+    <color name="usr_status_card_blue">#008EB6</color>
+    <color name="schedule_status_grey">#7F7F7F</color>
+    <color name="in_progress_blue">#05206A</color>
+    <color name="in_progress_bg_blue">#EBF1FA</color>
+    <color name="in_progress_text_bg">#232323</color>
+    <color name="shadow_color">#00000029</color>
+    <color name="status_unknown_blue">#ADCBFA</color>
+
+    <color name="desc_grey">#7F7F7F</color>
+    <color name="loading_bg_grey">#90000000</color>
+    <color name="date_picker_header">#008EB6</color>
+    <color name="date_picker_dialog_ok">#ADCBFA</color>
+    <color name="on_going_green">#51CA31</color>
+    <color name="status_accepted">#51CA31</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="status_rejected">#F44336</color>
+    <color name="service_request_accepted">#EAFFE5</color>
+    <color name="service_request_pending">#FFFAE4</color>
+    <color name="service_request_rejected">#FFEAE9</color>
+    <color name="on_going_time_green">#C6E4D0</color>
+
+    ------------------------------------------------------ThemeSupport------------
+    #SignIn
+    <color name="sign_in_btn_back">#FFFFFF</color>
+
+    #ScheduleDetail
+    <color name="schedule_detail_tile_bg">#EBF1FA</color>
+    <color name="schedule_detail_content_bg">#FFFFFF</color>
+    <color name="schedule_detail_tile_font">#000000</color>
+    <color name="schedule_detail_tile_image">#05206A</color>
+    <color name="schedule_detail_fb_image">#FFFFFF</color>
+    <color name="black_white">#000000</color>
+    <color name="darkblue_lightblue">#05206A</color>
+    <color name="lightblue_white">#ADCBFA</color>
+
+    #Notifications
+    <color name="black_lightblue">#000000</color>
+    <color name="separation_line">#D9D9D9</color>
+
+
+    #NotificationServiceRequest
+    <color name="white_darkgrey">#FFFFFF</color>
+    <color name="darkblue_white">#05206A</color>
+    <color name="nsr_footer_start">#E6E6E6</color>
+    <color name="nsr_footer_end">#00FFFFFF</color>
+
+    <color name="notification_badge">#E72A25</color>
+
+    #ScheduleList
+    <color name="schedule_list_item_bg">#FFFFFF</color>
+    <color name="white_darkblue">#FFFFFF</color>
+    <color name="status_completed_green">#6AC259</color>
+    <color name="lighterblue">#EBF1FA</color>
+    <color name="white_black">#FFFFFF</color>
+    <color name="bnv_selected">#05206A</color>
+    <color name="bnv_unselected">#000000</color>
+    <color name="nt_footer_start">#E6E6E6</color>
+    <color name="nt_footer_end">#00FFFFFF</color>
+
+    #ScheduleDetail
+    <color name="timer_green">#C6E4D0</color>
+
+    #RequestDetails
+    <color name="black_newgrey">#000000</color>
+
+    #ClockIn
+    <color name="clock_in_list_item_total_hrs_bg">#EBF1FA</color>
+    <color name="black_grey">#000000</color>
+    <color name="edit_text_white_grey_bg">#FFFFFF</color>
+
+    #ClockOut
+    <color name="timer_outer_circle">#F9FAFB</color>
+
+    #Expenses
+    <color name="expense_item_outline">#ADCBFA</color>
+    <color name="expense_status_bg">#000000</color>
+
+    #Chat
+    <color name="chat_edit_bg">#EEEEEE</color>
+    <color name="sender_bg">#EBF1FA</color>
+    <color name="receiver_bg">#F1F1F3</color>
+    <color name="chat_white">#FFFFFF</color>
+    <color name="chat_stroke">#B3B3B3</color>
+
+    #live
+    <color name="thumbnail_bg">#060606</color>
+
+    #SubmitTimeAndExpenses
+    <color name="lightblue_lightgrey">#EBF1FA</color>
+    <color name="schedule_completed">#f0f0f0</color>
+    <color name="status_shade_line">#d9d9d9</color>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_select_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_item"
+        style="@style/text_primary_dark_regular_16"
+        android:layout_width="@dimen/_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_24"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_marginBottom="@dimen/margin_19"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/padding_1"
+        app:layout_constraintBottom_toTopOf="@id/view_line"
+        app:layout_constraintEnd_toStartOf="@id/iv_audio_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_audio_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_12"
+        android:src="@drawable/ic_audiooffwhite"
+        app:layout_constraintBottom_toBottomOf="@id/iv_video_list"
+        app:layout_constraintEnd_toStartOf="@id/iv_video_list"
+        app:layout_constraintStart_toEndOf="@id/tv_item"
+        app:layout_constraintTop_toTopOf="@id/iv_video_list"
+        app:tint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_video_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_24"
+        android:src="@drawable/ic_videooffwhite"
+        app:layout_constraintBottom_toBottomOf="@id/tv_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_audio_list"
+        app:layout_constraintTop_toTopOf="@id/tv_item"
+        app:tint="@color/gray" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_1"
+        android:background="@color/separation_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

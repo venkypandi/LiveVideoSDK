@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/LiveVideoSDK/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/drawable/ic_offline.xml" value="0.1145" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/drawable/ic_participants.xml" value="0.1" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/drawable/ic_search_white.xml" value="0.1145" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/layout/fragment_live_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/layout/layout_drop_down.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/layout/layout_participant_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/LiveVideoSDK/live-video/src/main/res/layout/layout_thumbnail_list_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
